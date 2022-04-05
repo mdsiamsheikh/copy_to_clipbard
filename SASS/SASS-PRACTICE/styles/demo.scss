@@ -1,0 +1,60 @@
+
+@import "reset";
+@import "variables"; 
+
+header {
+    background: $header-bgcolor;
+}
+
+.btn {
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-download {
+@extend .btn;   
+}
+
+@mixin para-style($size, $style) {
+    font-size: $size;
+    text-align: $style;
+    margin: 10px 0;
+}
+
+#about p {
+    @include para-style(18px, left);
+}
+
+#Hello p {
+    @include para-style(16px, justify);
+}
+
+// nav styling
+nav {
+    margin-top: 15px;
+    ul {
+        list-style-type: none;
+        li {
+            display: inline-block;
+            margin: 0 15px;
+            a {
+                display: inline-block;
+                color: white;
+                text-decoration: none;
+                padding: 10px;
+                transition: 0.4s;
+                border-radius: 5px;
+            }
+            a:hover {
+                background: #333;
+            }
+        }
+    }
+}
+
+main {
+    background: $main-bgcolor;
+}

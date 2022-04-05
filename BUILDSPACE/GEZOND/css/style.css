@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+}
+
+p {
+    margin: 0.75rem 0;
+}
+
+body {
+    background: url('../img/stape3.jpg') no-repeat center center/cover;
+}
+
+li a button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100%;
+    font-size: 2rem;
+    text-align: none;
+}
+
+#navbar {
+    display: flex;
+    position: sticky;
+    color: #333;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#navbar h1 {
+    display: flex;
+    font-size: 3rem;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul li a {
+    display: flex;
+    position: 2rem;
+    color: #333;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#navbar ul li a:hover {
+    display: flex;
+    border-radius: 0.75rem;
+ 
+}
+
+button {
+    display: flex;
+    background: red;
+    
+   border-bottom: 1rem;
+   margin-top: 2rem;
+}
+
+/* showcase */
+#showcase {
+    display: flex;
+    padding: 1rem;
+}
+
+#showcase h1 p {
+  display: flex;
+  width: 50%;
+  padding: 22rem;
+
+}
+
+
+

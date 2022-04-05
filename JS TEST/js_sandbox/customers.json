@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "company": "123 Designs",
+        "phone": "444-555-6666"
+    },
+    {
+        "id": 2,
+        "name": "Siam",
+        "company": "Hello Productios",
+        "phone": "333-222-7777"
+      },
+      {
+        "id": 1,
+        "name": "Ripon",
+        "company": "Ripon Media",
+        "phone": "111-222-8888"  
+      }
+]

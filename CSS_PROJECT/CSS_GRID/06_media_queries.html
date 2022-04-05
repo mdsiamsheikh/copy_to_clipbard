@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Media Queries</title>
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(1fr);
+            grid-gap: 1rem;
+            background-color: red;
+            color: aliceblue; 
+        }
+
+        @media(max-widht: 768px) {
+            .grid {
+                grid-template-columns: (1fr);
+            }
+        }
+
+        @media(max-widht: 500px) {
+            .grid {
+                grid-template-columns: (1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="item">
+           <h3>Heading</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas deleniti, iure architecto tenetur iusto officia!</p>
+        </div>
+        <div class="grid">
+            <div class="item">
+               <h3>Heading</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas deleniti, iure architecto tenetur iusto officia!</p>
+            </div>
+            <div class="grid">
+                <div class="item">
+                   <h3>Heading</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas deleniti, iure architecto tenetur iusto officia!</p>
+                </div>
+                <div class="grid">
+                    <div class="item">
+                       <h3>Heading</h3>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas deleniti, iure architecto tenetur iusto officia!</p>
+                    </div>
+    </div>
+</body>
+</html>

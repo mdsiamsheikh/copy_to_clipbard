@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Areas</title>
+    <style>
+        .contaner {
+            display: grid;
+           grid-template-areas:
+            'header header header'
+            'content content sidebar'
+            'box-1 box-2 box-3'
+             'footer footer footer'
+             
+        }
+
+        .header, .content, .sidebar, .box-1, .box-2, .box-3, .footer{
+            border: 1px #ccc solid;
+            padding: .50rem;
+            background-image: linear-gradient(rgb(206, 61, 61), rgb(56, 56, 212));
+            color: rgb(231, 206, 206);
+            line-height: 1.3;
+            font-size: 17px;
+        }
+
+        .header {
+            grid-area: header;
+            text-align: center;
+            background: rgb(78, 78, 182);
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contaner">
+        <header class="header">
+            <h1>My Webaite</h1>
+        </header>
+        <section class="content">
+            <h3>Welcome To My Site</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos ex natus facere repellat sequi consequatur placeat rem provident, veniam veritatis error in ullam officiis cum nostrum cumque, quis itaque ducimus.</p>
+        </section>
+        <aside class="sidebar">
+            <h3>Contact Us</h3>
+            <ul>
+                <li>Some Company</li>
+                <li>50 Main st, Boston MA</li>
+                <li>something@something.com</li>
+                <li>555-555-55555</li>
+            </ul>
+        </aside>
+        <div class="box-1">
+           <h3>Heading</h3>
+           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita culpa aliquam natus dolorum, veritatis quae nam fugit suscipit molestias dolores maiores quam enim perspiciatis nesciunt mollitia obcaecati harum ut fugiat.</p>
+        </div>
+        <div class="box-2">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita culpa aliquam natus dolorum, veritatis quae nam fugit suscipit molestias dolores maiores quam enim perspiciatis nesciunt mollitia obcaecati harum ut fugiat.</p>
+         </div>
+         <div class="box-3">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita culpa aliquam natus dolorum, veritatis quae nam fugit suscipit molestias dolores maiores quam enim perspiciatis nesciunt mollitia obcaecati harum ut fugiat.</p>
+         </div>
+         <footer class="footer">
+             <p>copyright &copy; 2021</p>
+         </footer>
+    </div>
+</body>
+</html>

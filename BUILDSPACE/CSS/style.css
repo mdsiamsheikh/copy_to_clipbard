@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 2rem;
+}
+
+
+/* Navbar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    margin-top: none;
+    justify-content: space-between;
+    z-index: none;
+    box-shadow: 0 .1px 1rem rgba(0, 0, 0, .2);
+    margin: 1rem;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+#navbar ul li a {
+    padding: 16px;
+}
+
+#navbar .logo img {
+    height: 28px;
+    width: 28px;
+    margin-top: 3rem;
+    padding: 2px;
+    padding: 1px;
+}
+
+#main-nav {
+    position: static;
+    top: 0;
+    z-index: 23rem;
+}
+
+#navbar h1 {
+    margin-right: auto;
+    width: 400;
+    height:22px;
+    font-size: 20px;
+}
+
+button {
+    padding: 00.75rem 0;
+    margin: 00.75rem 0;
+    height: 44px;
+    width: 400;
+    background-image: linear-gradient(to right, #7A8BEA, #EF3E76);
+    padding: 00.75rem 1rem;
+    border-radius: 32px;
+    font-size: 1rem;
+}
+
+/* showcase */
+
+.showcase .showcase-container {
+    display: flex;
+    font-size: 1rem;
+    margin-top: 3rem;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+}
+
+.showcase .showcase-container .box h1 {
+    font-size: 3rem;
+    line-height: 1.3;
+}
+
+.showcase .showcase-container h1 span {
+    color: #7E89E7;
+}
+
+.showcase .showcase-container img {
+    height: 25rem;
+    padding-right: 3rem;
+}
+
+/* Home */
+ .home {
+    height: 50vh;
+ }
+
+.home .home-container h1 {
+    display: flex;
+    font-size: 2.3rem;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.home .home-container p {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .home-container h1 span {
+    color: #7E89E7;
+    width: 23rem;
+    height: 32px;
+}
+
+.home .home-container p span {
+    color: #6B6F76;
+    /* width: 700rpx; */
+    height: 28px;
+    font-size: 20px;
+}
+
+.home .home-container .logo {
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    margin-top: 1rem;
+}
+
+ .logo img {
+     padding: 1rem 1rem 2.5rem;
+     margin: 1rem 1rem 6rem;
+    height:100px;
+    width:200px; 
+}
+
+.home .home-container .logo h1 {
+    display: flex;
+}
+
+/* open */ 
+
+.box-2 h1 {
+    font-size: 2rem;
+    padding: 2rem;
+  margin-top: 1rem;
+}
+
+ /* .open-container  {
+   margin: 1px;
+   margin-top: 1rem;
+   font-size: 1rem;
+}  */
+
+.box-2 h1 span {
+    color: #37C7B9;
+}
+
+.open-container .box-2 p {
+  margin-top: 0rem;
+}
+
+.open {
+    flex-direction: column;
+    margin: 3rem;
+}
+
+.container {
+    margin: auto;
+}
+
+.open .open-container .box-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+     width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+     margin-top: 1px;
+    
+}
+ 
+  .image {
+    display: flex;
+    height:100px;
+    width: 100px;
+    margin: 12px;
+     border-radius: 100%; 
+} 
+
+#grid .flex-1 span {
+    color: red;
+}
+
+#grid .flex-1  {
+    font-size: 11px;
+    width: 300px;
+    /* height: 600px; */
+    border: 1px solid rgb(151, 142, 142);
+    padding: 1px;
+} 
+
+.flex-1 div i {
+    float: right;
+     margin-bottom: 1rem;
+}
+
+ /* folder */
+
+
+
+.foldar-contand h1 {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   width: 100%;
+  height: 50px;
+  font-size: 3.5rem;
+  margin-top: 100px;
+}
+
+.foldar-contand p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    font-size: 1.3rem;
+    height: 100px;
+}
+
+.foldar-contand h1 span {
+  color: #7E89E7;
+}
+
+.siam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.siam img h1 p {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+
+}
+
+
+
+
+
+
