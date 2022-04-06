@@ -5,10 +5,8 @@ app.component("order-form", {
       required: true,
     },
     total: {
-      cart: {
-        type: Number,
-        required: true,
-      },
+      type: Number,
+      required: true,
     },
   },
   template:
@@ -66,7 +64,7 @@ app.component("order-form", {
     hideOrderForm() {
       this.$emit("toggle-order-form");
     },
-    onsubmit() {
+    onSubmit() {
       let orderDetails = {
         name: this.name,
         phone: this.phone,
